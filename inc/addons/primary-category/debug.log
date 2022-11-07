@@ -1,0 +1,34 @@
+Array
+(
+    [cb] => <input type="checkbox" />
+    [title] => Title
+    [primary_category] => Primary Category
+    [author] => Author
+    [categories] => Categories
+    [tags] => Tags
+    [comments] => <span class="vers comment-grey-bubble" title="Comments"><span class="screen-reader-text">Comments</span></span>
+    [date] => Date
+    [seopress_title] => Title tag
+    [seopress_desc] => Meta Desc.
+    [seopress_noindex] => noindex?
+    [seopress_nofollow] => nofollow?
+    [seopress_score] => Score
+)
+
+Array
+(
+    [cb] => <input type="checkbox" />
+    [title] => Title
+    [primary_category] => Primary Category
+    [author] => Author
+    [categories] => Categories
+    [tags] => Tags
+    [comments] => <span class="vers comment-grey-bubble" title="Comments"><span class="screen-reader-text">Comments</span></span>
+    [date] => Date
+    [seopress_title] => Title tag
+    [seopress_desc] => Meta Desc.
+    [seopress_noindex] => noindex?
+    [seopress_nofollow] => nofollow?
+    [seopress_score] => Score
+)
+

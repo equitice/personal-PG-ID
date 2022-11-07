@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?111qap');
+  src:  url('../fonts/icomoon.eot?111qap#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?111qap') format('truetype'),
+    url('../fonts/icomoon.woff?111qap') format('woff'),
+    url('../fonts/icomoon.svg?111qap#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-thumbs-up:before {
+  content: "\f29";
+}
+.icon-arrow-bold:before {
+  content: "\f14";
+}
+.icon-left-arrow:before {
+  content: "\f15";
+}
+.icon-home:before {
+  content: "\f16";
+}
+.icon-right-arrow:before {
+  content: "\f17";
+}
+.icon-telephone:before {
+  content: "\f18";
+}
+.icon-email:before {
+  content: "\f19";
+}
+.icon-facebook:before {
+  content: "\f20";
+}
+.icon-twitter:before {
+  content: "\f21";
+}
+.icon-linkedin:before {
+  content: "\f22";
+}
+.icon-link:before {
+  content: "\f23";
+}
+.icon-search:before {
+  content: "\f24";
+}
+.icon-down-arrow:before {
+  content: "\f26";
+}
+.icon-like:before {
+  content: "\f27";
+}
+.icon-thumbs-o-up:before {
+  content: "\f28";
+}
+.icon-liked:before {
+  content: "\e9da";
+}

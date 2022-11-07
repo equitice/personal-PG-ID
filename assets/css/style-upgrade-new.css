@@ -1,0 +1,523 @@
+main.upgrade.v2 .text-center {
+	text-align: center;
+}
+
+main.upgrade.v2 .justify-content-center {
+	justify-content: center;
+}
+
+main.upgrade.v2 .justify-content-end {
+	justify-content: end;
+}
+
+main.upgrade.v2 .text-pgred {
+	color: #e03c31 !important;
+}
+
+main.upgrade.v2 .text-initial {
+	color: initial;
+}
+
+main.upgrade.v2 .fa-plus:before {
+	content: "\f067";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+}
+
+main.upgrade.v2 .fa-plus {
+	background-color: #fcb40a;
+	border-radius: 50%;
+	margin-right: 5px;
+	width: 25px;
+	color: #fff;
+	font-size: 14px;
+	font-style: normal;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main.upgrade.v2 .non-real-time::before {
+	content: '\f00c';
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 600;
+	color: #9a7caf;
+	border-radius: 50%;
+	border: 1px solid #9a7caf;
+	padding: 1px;
+	margin: 0 5px;
+}
+
+main.upgrade.v2 .real-time::before {
+	content: '\f00c';
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 600;
+	color: #fff;
+	background-color: #835d9c;
+	border-radius: 50%;
+	border: 1px solid #835d9c;
+	padding: 1px;
+	margin: 0 5px;
+}
+
+main.upgrade.v2 .red-border-top-except-first .row-1 td:not(:first-child) {
+	box-shadow: 0 5px 0 #e03c31 inset;
+	background-color: #FAFAFA;
+}
+
+main.upgrade.v2 section.choose-package tbody>tr:first-of-type>td:first-of-type,
+main.upgrade.v2 section.value-opportunity tbody>tr:first-of-type>td:first-of-type {
+	font-size: initial !important;
+	vertical-align: middle;
+}
+
+main.upgrade.v2 .body-no-border tbody tr:not(:first-of-type) td {
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-top: 0;
+	background-color: #fff;
+}
+
+main.upgrade.v2 .body-no-border tbody tr:first-of-type {
+	border-bottom: 1px solid #ddd;
+}
+
+main.upgrade.v2 .body-no-border tr td:not(:first-of-type) {
+	text-align: center;
+}
+
+main.upgrade.v2 table {
+	width: 100%;
+}
+
+main.upgrade.v2 table.purple-bordered tbody {
+	border: 2px solid purple !important;
+	border-radius: 10px !important;
+}
+
+.purple-bordered .column-1 {
+	background-color: #fff;
+	;
+}
+
+.purple-bordered tr td {
+	border-right: 1px solid #ebebeb;
+	border-top: 0 !important;
+}
+
+.purple-bordered tbody>tr:first-of-type>td:not(:first-of-type) {
+	border-right: 1px solid #ebebeb !important;
+}
+
+.purple-bordered tr td {
+	background-color: #f8f6f9;
+}
+
+.value-add table#tablepress-85 tr td:first-of-type,
+.value-add table#tablepress-85-no-2 tr td:first-of-type {
+	background: #fff;
+	border-right: 1px solid #ebebeb;
+	display:table-cell;
+	font-size: 14px !important;
+	/* min-width: unset; */
+	/* max-width: 300px !important; */
+	align-items: center;
+}
+
+.value-add table#tablepress-85 tr td:first-of-type img,
+.value-add table#tablepress-85-no-2 tr td:first-of-type img {
+	object-fit: contain;
+	padding: 15px;
+	/* display: inline-block; */
+}
+
+.yellow-bg-header {
+	width: 480px !important;
+}
+
+.yellow-bg-header thead th {
+	background-color: #fcb40a !important;
+}
+
+.yellow-bg-header th:first-of-type {
+	border-radius: 9px 0 0 0;
+}
+
+.yellow-bg-header th:last-of-type {
+	border-radius: 0 9px 0 0;
+}
+
+.yellow-bg-header tr td {
+	text-align: center !important;
+	font-size: 15px !important;
+	font-weight: 800 !important;
+	border: 0 !important;
+}
+
+.yellow-bg-header thead th:first-of-type {
+	border-right: 1px solid #f8c03c;
+}
+
+.yellow-bg-header tr:first-of-type h3 {
+	text-align: center !important;
+}
+
+main.upgrade.v2 .sub-heading {
+	margin-bottom: 64px;
+}
+
+main.upgrade.v2 tr td:first-of-type {
+	background-color: #fff;
+	z-index: 9999;
+}
+
+main.upgrade.v2 .powerup .d-flex h2,
+main.upgrade.v2 .value-add .d-flex h2 {
+	font-size: 32px;
+	text-indent: 7px;
+}
+
+main.upgrade.v2 .powerup .d-flex span,
+main.upgrade.v2 .value-add .d-flex span,
+main.upgrade.v2 section.value-opportunity small {
+	font-size: 16px;
+}
+
+main.upgrade.v2 .powerup .d-flex small,
+main.upgrade.v2 .value-add .d-flex small,
+main.upgrade.v2 section.saving small,
+span.essentials_2_text {
+	font-size: 12px;
+}
+
+main.upgrade.v2 table tr:not(:first-of-type) td {
+	font-size: 12px;
+}
+
+main.upgrade.v2 section.choose-package div.container,
+main.upgrade.v2 section.saving div.container {
+	margin-bottom: 32px;
+}
+
+main.upgrade.v2 .powerup .d-flex.flex-columns,
+main.upgrade.v2 .value-add .d-flex.flex-columns {
+	margin-bottom: 16px;
+}
+
+main.upgrade.v2 .value-add table tr td:not(:first-of-type) {
+	text-align: center;
+	vertical-align: middle;
+}
+
+main.upgrade.v2 section.choose-package tbody>tr:first-of-type>td:first-of-type,
+main.upgrade.v2 section.value-opportunity tbody>tr:first-of-type>td:first-of-type {
+	font-size: 35px;
+	color: rgb(30, 36, 46);
+	padding-left: 30px !important;
+	text-align: left;
+	z-index: 9999;
+}
+
+main.upgrade.v2 tr.content_row td:not(.first-col),
+main.upgrade.v2 section.choose-package tbody>tr:first-of-type>td:not(:first-of-type),
+main.upgrade.v2 section.value-opportunity tbody>tr:first-of-type>td:not(:first-of-type) {
+	border: 1px solid #d9d9d9;
+	border-top: 0;
+	border-bottom: 0;
+	width: 16%;
+}
+main.upgrade.v2 section.choose-package tbody>tr:first-of-type>td:not(:first-of-type){border-right:0!important;}
+main.upgrade.v2 section.choose-package tbody>tr>td.column-1 {
+	width: 35%;
+}
+table#tablepress-83 tbody>tr>td.column-1, table#tablepress-86 tbody>tr>td.column-1 {
+	width: 27.5%;
+}
+.tablepress-id-110 tbody .row-1{padding:0!important;}
+main.upgrade.v2 section.choose-package tbody>tr:first-of-type>td,
+main.upgrade.v2 section.value-opportunity tbody>tr:first-of-type>td {
+	font-size: 14px;
+	text-align: center;
+	color: #1e242e;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 35px;
+}
+
+main.upgrade.v2 section.saving table#tablepress-85-no-2 td,
+main.upgrade.v2 section.saving table#tablepress-107-no-2 td {
+	background: #fff;
+}
+
+main.upgrade.v2 .learn-more {
+	text-decoration: underline;
+	font-size: 12px !important;
+	margin-left: 5px;
+	color: #D72422;
+}
+
+main.upgrade.v2 .learn-more:visited {
+	color: #000;
+}
+
+main.upgrade.v2 .learn-more::before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+}
+
+main.upgrade.v2 span.essentials_2_text a {
+	color: initial;
+}
+
+main.upgrade.v2 span.essentials_2_text a:visited {
+	color: initial;
+}
+
+main.upgrade.v2 .red-border-top-except-first tr .text-heading {
+	font-weight: 800;
+	font-size: 18px;
+}
+
+main.upgrade.v2 .red-border-top-except-first tr .text-para {
+	font-size: 14px;
+}
+
+main.upgrade.v2 .renew-today span {
+	margin-top: 16px;
+	font-size: 16px;
+	font-weight: 800;
+}
+
+main.upgrade.v2 .d-flex {
+	display: flex;
+}
+
+main.upgrade.v2 .offer-block {
+	margin-bottom: 64px;
+}
+
+main.upgrade.v2 .flex-columns {
+	flex-direction: column;
+}
+
+main.upgrade.v2 table.prime-new-credits tr:nth-of-type(3) td span {
+	width: 100%;
+	display: inline-block;
+}
+
+main.upgrade.v2 table.prime-new-credits tr:nth-of-type(3) td span:nth-of-type(2) {
+	background: #212121;
+	padding: 3px 13px;
+	border-radius: 14px;
+	width: auto;
+	color: #fff;
+}
+
+main.upgrade.v2 table.prime-new-credits .new-red {
+	background: #e03c31;
+	color: #fff;
+	font-size: 11px;
+	border-radius: 3px;
+	vertical-align: text-top;
+	padding: 1px 2px;
+	margin-left: 5px;
+}
+
+/* main.upgrade.v2 table.prime-new-credits tr:nth-of-type(4) td {
+	background: #F8B7B5;
+} */
+
+main.upgrade.v2 table.prime-new-credits {
+	border: 1px solid #ddd;
+}
+
+main.upgrade.v2 section.choose-package table#tablepress-85 tr td:not(:first-of-type) {
+	width: 15.5%;
+}
+
+main.upgrade.v2 .faq-sec--ruu .list li:first-child {
+	display: block;
+}
+
+/* main.upgrade.v2 section.choose-package table#tablepress-85 tr td:not(:first-of-type),
+main.upgrade.v2 section.value-opportunity table#tablepress-85-no-2 tr td:not(:first-of-type) {
+	width: 15.5%;
+	background-color: #fff;
+} */
+
+main.upgrade.v2 .faq-sec--ruu .list li:first-child {
+	display: block;
+}
+
+main.upgrade.v2 .first-sec--ruu {
+	height: 578px;
+	background-image: url(https://www.agentofferings.propertyguru.com.sg/wp-content/uploads/2022/07/banner-3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+main.upgrade.v2 table#tablepress-109 {
+	max-width: 380px;
+}
+
+main.upgrade.v2 table#tablepress-109 tr.even td.column-1 {
+	background: #f2f2f2;
+}
+
+main.upgrade.v2 table#tablepress-109 tr.even td.column-2 {
+	background: #fafafa;
+}
+
+main.upgrade.v2 table#tablepress-109 tr.odd td.column-1 {
+	background: #fff;
+}
+
+main.upgrade.v2 .saving {
+	background-color: #fff;
+}
+/*
+main.upgrade.v2 section.choose-package table#tablepress-85 tr:first-of-type td:not(:first-of-type),
+main.upgrade.v2 section.value-opportunity table#tablepress-85-no-2 tr:first-of-type td:not(:first-of-type) {
+	background: #e5ffff;
+	border-left: 0;
+} */
+
+main.upgrade.v2 #tablepress-85-no-2 tr td,
+#tablepress-85 tr td {
+	border-bottom: 0;
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #ddd;
+}
+
+main.upgrade.v2 table#tablepress-85-no-2,
+main.upgrade.v2 table#tablepress-85 {
+	border: 1px solid #d9d9d9;
+}
+
+main.upgrade.v2 section.value-opportunity h3.sub-heading {
+	margin-bottom: 32px;
+	/* margin-top: 32px; */
+	text-align: center;
+	font-size: 16px;
+	/* background: black; */
+}
+
+main.upgrade.v2 section.value-opportunity a.cta--ruu {
+	margin-top: 16px;
+}
+
+.faq-sec--ruu .content,
+.term-condition .content,
+.term-condition .heading,
+.get-recommendation .container {
+	max-width: 1060px;
+	margin: 0 auto;
+	min-width: 1060px;
+}
+
+main.upgrade.v2 section.saving h3.sub-heading {
+	margin: 0;
+}
+
+section.get-recommendation .content {
+	margin: 0;
+	width: 100%;
+}
+
+section.faq-sec .container {
+	min-width: 1060px;
+}
+
+main.upgrade.v2 section.term-condition .container {
+	min-width: 1060px;
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+main.upgrade.v2 section.saving h3.sub-heading {
+	margin-top: 16px;
+}
+
+section.faq-sec .container {
+	min-width: 1060px;
+}
+
+body #masthead {
+	z-index: 999999;
+}
+
+.hide-desktop {
+	display: none;
+}
+
+.align-items-start {
+	align-items: flex-start;
+}
+
+.value-opportunity .container {
+	margin-bottom: 32px;
+}
+
+main.upgrade.v2 table:not(table.yellow-bg-header) tr td:first-of-type{
+	width: 27%;
+	/*max-width: 280px !important;*/
+	min-width: 180px;
+}
+
+main.upgrade.v2 .value-add table tr td{
+	flex-grow:1;
+	align-items: center;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 1200px) {
+
+	.faq-sec--ruu .container,
+	.term-condition .content,
+	.term-condition .heading,
+	.get-recommendation .container,
+	section.term-condition .container,
+	section.term-condition .container,
+	section.faq-sec .container,
+	.faq-sec--ruu .content {
+		max-width: unset !important;
+		min-width: unset !important;
+	}
+
+	main.upgrade.v2 table#tablepress-109,
+	main.upgrade.v2 table#tablepress-109-no2 {
+		max-width: 100%;
+	}
+}
+@media only screen and (max-width: 575px) {
+table#tablepress-83 tbody>tr>td.column-1, table#tablepress-86 tbody>tr>td.column-1{min-width:110px!important;}
+}
+@media only screen and (max-width: 480px) {
+	.choose-package .sub-heading {
+		font-size: 14px;
+	}
+
+	main.upgrade.v2 .first-sec--ruu {
+		height: 390px;
+		background-size: cover;
+		background-position: 65% 0;
+	}
+
+	.hide-desktop {
+		display: block;
+	}
+
+	.get-recommendation .heading {
+		font-size: 25px;
+	}
+	main.upgrade.v2 table:not(table.yellow-bg-header) tr td:first-of-type{
+		width: 100%;
+		max-width: 220px !important;
+		min-width: 220px;
+	}
+	main.upgrade.v2 .value-add table tr td:first-of-type img{
+		max-width: 100px ;
+	}
+}

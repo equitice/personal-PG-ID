@@ -1,0 +1,100 @@
+footer {
+    .footer-menus {
+        display: flex;
+        align-items: center;
+        background-color: #2C2C2C;
+        padding-top: 50px;
+        padding-bottom: 40px;
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 100%;
+            
+            aside {
+                h4 {
+                    font-family: 'Roboto', sans-serif;
+                    margin: 0 0 13px;
+                    color: #fff;
+                    font-size: 14px;
+                    line-height: 19px;
+                    font-weight: 400;
+                }
+
+                .col {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                }
+
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+
+                    li {
+                        position: relative;
+                        margin-bottom: 9px;
+                        color: #ccc;
+
+                        i {
+                            position: absolute;
+                            left: 0;
+                        }
+
+                        a {
+                            color: #ccc;
+                            text-decoration: none;
+                        }
+
+                        &.footer-icon {
+                            display: flex;
+                            align-items: center;
+
+                            img {
+                                margin-right: 12px;
+                            }
+                        }
+                    }
+                }
+
+                .widget_nav_menu {
+                    padding: 0 85px 0 0;
+                }
+            }
+        }
+    }
+
+    .site-info {
+        background-color: #242323;
+
+        .container {
+            display: flex;
+            align-items: center;
+            height: 70px;
+        }
+
+        ul {
+            margin: -3px 0 0;
+            padding: 0;
+            list-style: none;
+
+            li {
+                display: inline-block;
+                margin-right: 30px;
+
+                a {
+                    color: #fff;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .site-footer-copyright {
+            margin: 0;
+            color: #fff;
+            font-size: 14px;
+            text-decoration: underline;
+        }
+    }
+}

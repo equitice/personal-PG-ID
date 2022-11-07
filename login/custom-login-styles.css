@@ -1,0 +1,254 @@
+a,
+button,
+img,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+a:hover,
+a:active,
+a:focus,
+div:hover,
+div:active,
+div:focus,
+input:hover,
+input:active,
+input:focus,
+textarea:hover,
+textarea:active,
+textarea:focus,
+li:hover,
+li:active,
+li:focus,
+button:hover,
+button:active,
+button:focus,
+img:focus {
+    outline: 0 !important;
+}
+
+.login #login {
+    width: 420px;
+    position: relative;
+}
+
+.login #login form .input,
+.login #login input[type=text] {
+    color: #6f6f6f;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 11px 10px 13px;
+}
+
+.login #login form .input#user_login {
+    margin-bottom: 0;
+}
+
+.login #login .wp-core-ui .button-primary {
+    background: #31140d;
+    border-color: #31140d;
+    box-shadow: 0 1px 0 #31140d;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #31140d, 1px 0 1px #31140d, 0 1px 1px #31140d, -1px 0 1px #31140d;
+}
+
+.login #login .button-primary {
+    float: none;
+    width: 100%;
+    border-radius: 15px;
+    background: #907851;
+    border-color: #907851;
+    color: #fff;
+    text-shadow: 0 0 0 #fff;
+    height: 45px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+body.login div#login h1 a {
+    background-image: url('../assets/images/logo.png');
+    background-size: 100% 100%;
+    height: 100px !important;
+    margin-bottom: 0 !important;
+}
+
+.login #login form {
+    box-shadow: 0 0 0 rgba(0, 0, 0, .13);
+    margin-top: 0px;
+    padding-bottom: 0;
+	border: none;
+}
+
+.login form .forgetmenot {
+    margin-bottom: 10px !important;
+}
+
+body.login {
+    background: transparent;
+    width: 100%;
+}
+
+body.login div#login h1 a {
+    padding-bottom: 0;
+}
+
+.login #login h1 a {
+
+    /* line-height: 4.3em; */
+    box-shadow: 0 0 0 #fff;
+    -webkit-box-shadow: 0 0 0 #fff;
+}
+
+.login:not(.login-action-checkemail) #login .message:not(.reset-pass) {
+    display: none;
+}
+
+.login #login #nav {
+    float: initial;
+    margin: 0;
+    position: initial;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
+
+.login #login #nav a {
+    color: #121212;
+}
+
+.login #login #rememberme {
+    border-radius: 4px;
+	position: initial;
+    /* bottom: -3px;
+    left: 115px; */
+}
+
+.login #login {
+    padding: 10% 0 0;
+}
+
+.login h1 a {
+    text-indent: unset !important;
+}
+
+.designby {
+    float: right;
+    /* position: absolute; */
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    margin-right: 20px;
+}
+
+.designby p {
+    color: #9f9f9f;
+    font-size: 14px;
+}
+
+.designby p a {
+    padding-left: 20px;
+}
+
+.designby p a img {
+    max-width: 65px;
+}
+
+.login #backtoblog {
+    left: 0 !important;
+    margin-top: 30px;
+}
+
+.login #login form .forgetmenot label {
+    font-size: 13px;
+    color: #121212;
+    position: initial;
+    /* bottom: 3px; */
+}
+
+.login #login label {
+    color: transparent;
+    line-height: 0px;
+}
+
+.fbl-button {
+    display: none;
+}
+
+[name="lostpasswordform"] .submit input {
+	margin-top: 20px;
+}
+
+.login .button.wp-hide-pw .dashicons {
+	top: 9px;
+    right: 8px;
+}
+
+.privacy-policy-page-link {
+    display: none;
+}
+
+@media (max-width:768px) {
+    #backtoblog {
+        left: -40%;
+    }
+
+    #backtoblog {
+        position: relative;
+        left: 0;
+    }
+	
+	.login #login #rememberme {
+        height: 1em;
+        width: 1em;
+	}
+	
+	.login #login form .forgetmenot label {
+		bottom: 18px;
+	}
+
+}
+
+@media (max-width:667px) {
+    #backtoblog {
+        left: -20%;
+    }
+
+    .login #login .button-primary {
+        margin-bottom: 25px;
+    }
+
+    .login #login #nav {
+        bottom: 6px;
+    }
+    
+    body.login div#login h1 a {
+        margin-bottom: 30px !important;
+    }
+}
+
+@media (max-width:480px) {
+    .login #login {
+        width: 320px;
+    }
+
+    #backtoblog {
+        left: 0;
+        margin-top: 25px;
+    }
+
+    .designby {
+        padding-right: 0;
+        margin-top: 65px;
+    }
+
+}

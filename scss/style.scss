@@ -1,0 +1,50 @@
+@import 'partials/breakpoints';
+@import 'partials/icomoon';
+@import 'partials/breadcrumbs';
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/single-post';
+@import 'partials/news';
+@import 'partials/comments';
+@import 'partials/404';
+@import 'partials/archive';
+
+.container {
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.page-navigation {
+    margin-top: 50px;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    ul.page-numbers {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-weight: 700;
+        letter-spacing: -.02em;
+        line-height: 1.2;
+
+        > li {
+            display: inline-block;
+
+            a {
+                color: #A6002B;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .page-navigation a.page-numbers,
+    .page-navigation span.page-numbers {
+        padding: 1rem;
+    }
+}

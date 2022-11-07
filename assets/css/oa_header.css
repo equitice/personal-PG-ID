@@ -1,0 +1,140 @@
+.custom-sub-menu {
+    position: absolute;
+    top: 37px;
+    background-color: #fff;
+    padding: 30px;
+    display: none;
+	margin-top: 10px;
+	left: -185%;
+	width: -moz-available;
+}
+.custom-sub-menu .col-md-4 .submenu-sub{
+	width:28%;
+		flex: 0 0 auto;
+}
+.custom-sub-menu h2{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+	width: max-content;
+}
+.custom-sub-menu .submenu-sub .col_submenu .col_menuitem h3{
+	font-size: 16px;
+	color: #E03C31;
+	width: max-content;
+	margin-bottom:0;
+	font-family:'Roboto',sans-serif;
+	font-weight:700;
+}
+.custom-sub-menu .submenu-sub .col_submenu .col_menuitem .submenu_desc p{
+	font-size: 14px;
+	margin-right: 3px;
+}
+.custom-sub-menu .submenu-sub .col_submenu .col_menuitem .submenu_desc a{display:initial!important;padding:0;}
+
+.custom-sub-menu .row{
+    display:flex;
+	margin-left: initial;
+	margin-right: initial;
+	margin-top: initial;
+	flex-wrap: unset;
+	--bs-gutter-x: 1.5rem;
+}
+#masthead #site-navigation .menu-primary-menu-container #primary-menu li .custom-sub-menu a{padding:5px 0;}
+#masthead #site-navigation .menu-primary-menu-container #primary-menu li .custom-sub-menu a.red-button{
+    max-width: 250px;
+    margin-top: 20px;
+	color: #fff;
+	text-align:center;
+	padding:15px 25px;
+	font-weight:400!important;
+	font-family:'Roboto',sans-serif;
+	
+}
+.custom-sub-menu .col_menuitem{
+    margin-left: 0
+}
+/* .custom-sub-menu .col-md-6 .col_menuitem{
+	margin-left:0;
+} */
+.custom-sub-menu .submenu_desc a {
+    display: inline-block;
+}
+.custom-sub-menu .submenu_desc p {
+    font-size: 14px;
+}
+h3.submenu-headings{font-family:"Roboto", sans-serif;font-size:18px;font-weight:500;}
+/* .custom-sub-menu .col-md-4 .submenu_desc{
+	width: 125%;
+} */
+.menu-item:hover .custom-sub-menu {
+    display: block;width:100%;
+}
+
+
+.main-navigation ul ul.col_submenu {
+    float: initial;
+    position: initial;
+    left: initial;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+	
+/* 	margin-left: 65px; */
+}
+.main-navigation ul ul.col_submenu li.col_menuitem>a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+@media only screen and (max-width: 991px) {
+    .menu-item:hover .custom-sub-menu {
+        display: none;
+    }
+    .custom-sub-menu {
+        position: initial;
+        padding: 0;
+        background-color: transparent;
+    }
+    .custom-sub-menu>.row>div:first-of-type {
+        display: none;
+    }
+    .custom-sub-menu.click {
+        display: block;
+    }
+    .custom-sub-menu .col_submenu {
+        padding: 0 !important;
+        padding-left: 5px !important;
+    }
+    .custom-sub-menu .col_submenu .col_menuitem .submenu_desc {
+        display: none;
+    }
+    .custom-sub-menu .col_submenu .col_menuitem>a {
+        padding: 0 !important;
+    }
+    .custom-sub-menu .col_submenu .col_menuitem>a>h3 {
+        color: #fff !important;
+        padding: 6px 0 !important;
+        font-size: 13px !important;
+    }
+	.main-navigation ul ul.col_submenu{margin-left:0;}
+	.custom-sub-menu .col_menuitem{margin-left:0;padding:7px 8px 7px 15px;}
+	.custom-sub-menu .row{display:block;}
+	.submenu-sub{padding-left:0;padding-right:0;}
+	
+	#masthead #site-navigation .menu-primary-menu-container #primary-menu li:last-child{padding-right:0;}
+	.custom-sub-menu .submenu-sub .col_submenu .col_menuitem a{max-width:100%;}
+	.custom-sub-menu .submenu-sub .col_submenu .col_menuitem h3{width:initial;}
+}
+@media only screen and (min-width: 992px) {
+	.col_submenu li:hover{background:#FFECEB;}
+	.main-navigation ul .col-md-4 ul.col_submenu{
+	width: 277px;
+}
+#masthead #site-navigation .menu-primary-menu-container #primary-menu li:last-child .custom-sub-menu .col-md-6:first-child{width:30%;}
+#masthead #site-navigation .menu-primary-menu-container #primary-menu li:last-child .custom-sub-menu .col-md-6:last-child{width:70%;}
+	#masthead .container{position:relative;}
+	#masthead #site-navigation .menu-primary-menu-container #primary-menu li{position:static;}
+	.custom-sub-menu{position:absolute;left:0;margin-top:26px}
+}

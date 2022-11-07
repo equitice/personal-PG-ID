@@ -1,0 +1,101 @@
+.error404 {
+    .not-found {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 610px;
+        margin: 50px auto;
+
+        .not-found-main {
+            flex-basis: calc(100% - 210px);
+            max-width: calc(100% - 210px);
+            padding-right: 30px;
+
+            h1 {
+                margin: 0;
+                padding: 0;
+                font-family: 'Nunito', sans-serif;
+                font-size: 40px;
+                line-height: 64px;
+                color: #2C2C2C;
+            }
+
+            span.error-title {
+                margin-bottom: 20px;
+                display: block;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                line-height: 22px;
+                color: #999999;
+            }
+
+            .btn-link {
+                margin-bottom: 20px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                min-width: 100px;
+                background: #FFFFFF;
+                font-family: 'Roboto', sans-serif;
+                color: #E03C31;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 22px;
+                border: 1px solid #E03C31;
+                box-sizing: border-box;
+                border-radius: 8px;
+                height: 36px;
+                text-decoration: none;
+            }
+
+            p {
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                line-height: 22px;
+                color: #505050;
+            }
+
+            a {
+                color: #E03C31;
+                text-decoration: none;
+            }
+
+            .not-found-subheading {
+                margin: 0 0 10px;
+            }
+
+            .not-found-desc {
+                p {
+                    margin-top: 0;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        .error-404-img {
+            margin-bottom: 20px;
+            flex-basis: 210px;
+            max-width: 210px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .error404 .not-found .not-found-main {
+        flex-basis: 100%;
+        max-width: 100%;
+        padding-right: 0px;
+        text-align: center;
+        order: 2;
+    }
+
+    .error404 .not-found .error-404-img {
+        flex-basis: 100%;
+        max-width: 100%;
+        order: 1;
+
+        img {
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}

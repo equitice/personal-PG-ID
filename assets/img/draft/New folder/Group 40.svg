@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="532" height="65.5" viewBox="0 0 532 65.5">
+  <g id="Group_40" data-name="Group 40" transform="translate(-854 -3566)">
+    <g id="Component_10_3" data-name="Component 10 – 3" transform="translate(1362 3607.5)">
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="24" height="24" fill="rgba(255,255,255,0)"/>
+      <g id="search" transform="translate(4 4)">
+        <path id="Path_9" data-name="Path 9" d="M7,14a7,7,0,1,1,7-7A7.008,7.008,0,0,1,7,14ZM7,2a5,5,0,1,0,5,5A5.006,5.006,0,0,0,7,2Z" fill="#212529"/>
+        <path id="Path_10" data-name="Path 10" d="M15.707,14.293,13.314,11.9A8.019,8.019,0,0,1,11.9,13.314l2.393,2.393a1,1,0,1,0,1.414-1.414Z" fill="#212529"/>
+      </g>
+    </g>
+    <text id="Search_News_here_" data-name="Search News here…" transform="translate(867 3625)" fill="#bdbdbd" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Search News here…</tspan></text>
+    <text id="Search-2" data-name="Search" transform="translate(854 3586)" fill="#2c2c2c" font-size="20" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Search</tspan></text>
+  </g>
+</svg>

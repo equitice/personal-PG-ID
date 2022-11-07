@@ -41,8 +41,8 @@
 	flex-wrap: unset;
 	--bs-gutter-x: 1.5rem;
 }
-#masthead #site-navigation .menu-primary-menu-container #primary-menu li .custom-sub-menu a{padding:5px 0;}
-#masthead #site-navigation .menu-primary-menu-container #primary-menu li .custom-sub-menu a.red-button{
+#masthead #site-navigation>div>#primary-menu li .custom-sub-menu a{padding:5px 0;}
+#masthead #site-navigation>div>#primary-menu li .custom-sub-menu a.red-button{
     max-width: 250px;
     margin-top: 20px;
 	color: #fff;
@@ -123,7 +123,7 @@ h3.submenu-headings{font-family:"Roboto", sans-serif;font-size:18px;font-weight:
 	.custom-sub-menu .row{display:block;}
 	.submenu-sub{padding-left:0;padding-right:0;}
 	
-	#masthead #site-navigation .menu-primary-menu-container #primary-menu li:last-child{padding-right:0;}
+	#masthead #site-navigation>div>#primary-menu li:last-child{padding-right:0;}
 	.custom-sub-menu .submenu-sub .col_submenu .col_menuitem a{max-width:100%;}
 	.custom-sub-menu .submenu-sub .col_submenu .col_menuitem h3{width:initial;}
 }
@@ -132,9 +132,9 @@ h3.submenu-headings{font-family:"Roboto", sans-serif;font-size:18px;font-weight:
 	.main-navigation ul .col-md-4 ul.col_submenu{
 	width: 277px;
 }
-#masthead #site-navigation .menu-primary-menu-container #primary-menu li:last-child .custom-sub-menu .col-md-6:first-child{width:30%;}
-#masthead #site-navigation .menu-primary-menu-container #primary-menu li:last-child .custom-sub-menu .col-md-6:last-child{width:70%;}
+#masthead #site-navigation>div>#primary-menu li:last-child .custom-sub-menu .col-md-6:first-child{width:30%;}
+#masthead #site-navigation>div>#primary-menu li:last-child .custom-sub-menu .col-md-6:last-child{width:70%;}
 	#masthead .container{position:relative;}
-	#masthead #site-navigation .menu-primary-menu-container #primary-menu li{position:static;}
+	#masthead #site-navigation>div>#primary-menu li{position:static;}
 	.custom-sub-menu{position:absolute;left:0;margin-top:26px}
 }

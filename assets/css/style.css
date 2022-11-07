@@ -237,15 +237,15 @@ ol.breadcrumbs li:first-child:before {
   order: 2;
 }
 
-#masthead #site-navigation .menu-primary-menu-container {
+#masthead #site-navigation>div {
   order: 1;
 }
 
-#masthead #site-navigation .menu-primary-menu-container #primary-menu li {
+#masthead #site-navigation>div>#primary-menu li {
   padding: 0 8px;
 }
 
-#masthead #site-navigation .menu-primary-menu-container #primary-menu li a {
+#masthead #site-navigation>div>#primary-menu li a {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
@@ -253,14 +253,14 @@ ol.breadcrumbs li:first-child:before {
  	color:#2C2C2C;
 }
 
-#masthead #site-navigation .menu-primary-menu-container #primary-menu li a{
+#masthead #site-navigation>div>#primary-menu li a{
 	padding:23px 0;
 }
 
-#masthead #site-navigation .menu-primary-menu-container #primary-menu li .custom-sub-menu a{
+#masthead #site-navigation>div>#primary-menu li .custom-sub-menu a{
 	padding:10px 0;
 }
-#masthead #site-navigation .menu-primary-menu-container #primary-menu li:last-child {
+#masthead #site-navigation>div>#primary-menu li:last-child {
   padding-right: 15px;
 }
 
@@ -1949,7 +1949,7 @@ span.flag {
   background-position: center;
 }
 
-#masthead #site-navigation .menu-primary-menu-container #primary-menu li:last-child a {
+#masthead #site-navigation>div>#primary-menu li:last-child a {
   display: flex;
   align-items: center;
   column-gap: 3px;
@@ -3935,11 +3935,11 @@ section.faq-sec .q_list {
   padding-top: 30px;
 }
 
-#masthead #site-navigation .menu-primary-menu-container #primary-menu li a {
+#masthead #site-navigation>div>#primary-menu li a {
   transition: .5s;
 }
 
-body #masthead #site-navigation .menu-primary-menu-container #primary-menu li a:hover {
+body #masthead #site-navigation>div>#primary-menu li a:hover {
   color: #e33e33;
 }
 
@@ -3965,12 +3965,12 @@ body #masthead {
   display: flex;
 }
 
-#masthead #site-navigation .menu-primary-menu-container #primary-menu li {
+#masthead #site-navigation>div>#primary-menu li {
   position: relative;
   padding: 7px 14px;
 }
 @media screen and (max-width: 480px) {
-#masthead #site-navigation .menu-primary-menu-container #primary-menu li{
+#masthead #site-navigation>div>#primary-menu li{
   padding:4px 0;
 }
 }
@@ -4769,7 +4769,7 @@ body.page-template-fastkey-projects .page_nav ul {
 }
 
 @media screen and (max-width: 767px){
-  #masthead #site-navigation .menu-primary-menu-container #primary-menu .sub-menu li a{
+  #masthead #site-navigation>div>#primary-menu .sub-menu li a{
     font-size: 13px;
   }
 }

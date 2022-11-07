@@ -95,24 +95,22 @@
 		
 	if(
     	
-        is_page('marketinsights')
-		||is_page('featuredagent')
-		||is_page('turbo')
-		||is_page('boost')
+        is_page('turbo')
+		||is_page('fiturpremium')
 		||is_page('spotlight')
-		||is_page('weeklyfeaturedlisting')
 		||is_page('promotions')
     ){ ?>
         <div class="pg-page_nav">
             <div class="container">
                 <ul>
-                    <li<?php if(is_page('marketinsights')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('marketinsights'); ?>">Market Insights</a></li>
-                    <li<?php if(is_page('featuredagent')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('featuredagent'); ?>">Featured Agents</a></li>
+<!--                     <li<?php if(is_page('marketinsights')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('marketinsights'); ?>">Market Insights</a></li> -->
+<!--                     <li<?php if(is_page('featuredagent')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('featuredagent'); ?>">Featured Agents</a></li> -->
                     <li<?php if(is_page('turbo')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('turbo'); ?>">Turbo</a></li>
-                    <li<?php if(is_page('boost')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('boost'); ?>">Boost</a></li>
-					<li<?php if(is_page('spotlight')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('spotlight'); ?>">Spotlight</a></li>
-					<li<?php if(is_page('weeklyfeaturedlisting')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('weeklyfeaturedlisting'); ?>">Weekly Featured Listings</a></li>
-					<li<?php if(is_page('promotions')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('promotions'); ?>">Promotions</a></li>
+<!--                     <li<?php if(is_page('boost')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('boost'); ?>">Boost</a></li> -->
+					<li<?php if(is_page('spotlight')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('spotlight'); ?>">Spotlight Sundul</a></li>
+					<li<?php if(is_page('fiturpremium')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('fiturpremium'); ?>">Produk Spesialis</a></li>
+					<li<?php if(is_page('fiturpremium')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('fiturpremium'); ?>">Exclusive Listing</a></li>
+					<li<?php if(is_page('promotions')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('promotions'); ?>">Promosi</a></li>
 				</ul>
             </div>
         </div>
@@ -125,25 +123,24 @@
         <div class="pg-page_nav">
             <div class="container">
                 <ul>
-                    <li<?php if(is_category( 'industry-tips-insights' )){ ?> class="active"<?php } ?>><a href="<?php echo site_url(); ?>/agentnews/category/insights-and-tips/">Insights & Tips</a></li>
-					<li<?php if(is_category( 'industry-news' )){ ?> class="active"<?php } ?>><a href="<?php echo site_url(); ?>/agentnews/category/industry-news/">Industry News</a></li>
-					<li<?php if(is_category( 'product-updates' )){ ?> class="active"<?php } ?>><a href="<?php echo site_url(); ?>/agentnews/category/product-updates/">Product Updates</a></li>
-					<li<?php if(is_category( 'agent-interviews' )){ ?> class="active"<?php } ?>><a href="<?php echo site_url(); ?>/agentnews/category/agent-interviews/">Agent Interviews</a></li>
+                    <li<?php if(is_category( 'berita-industri' )){ ?> class="active"<?php } ?>><a href="<?php echo site_url(); ?>/kategori/berita-industri/">Berita Industri</a></li>
+					<li<?php if(is_category( 'pembaruan-produk' )){ ?> class="active"<?php } ?>><a href="<?php echo site_url(); ?>/kategori/pembaruan-produk/">Pembaruan Produk</a></li>
+					<li<?php if(is_category( 'wawasan-and-tips' )){ ?> class="active"<?php } ?>><a href="<?php echo site_url(); ?>/kategori/wawasan-and-tips/">Wawasan & Tips</a></li>
 				</ul>
             </div>
         </div>
         <?php }
 		if(
-    	is_page('accountmanagers')
+    	is_page('tanyasales')
         ||is_page('customer-care')
 			||is_page('contactus')
     ){ ?>
         <div class="pg-page_nav">
             <div class="container">
                 <ul>
-                    <li<?php if(is_page('accountmanagers')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('accountmanagers'); ?>">Account Managers</a></li>
-                    <li><a href="https://help.propertyguru.com.sg/en/">Help Centre</a></li>
-                    <li<?php if(is_page('contact-us')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('contactus'); ?>">Customer Care</a></li>
+                    <li<?php if(is_page('tanyasales')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('tanyasales'); ?>">Tanya Sales</a></li>
+                    <li><a href="https://help.rumah.com">Help Centre</a></li>
+                    <li<?php if(is_page('contact-us')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('contactus'); ?>">Layanan Pelanggan</a></li>
 				</ul>
             </div>
         </div>
@@ -163,17 +160,13 @@ if(
             </div>
         </div>
         <?php }
-        if(is_page('academy-partnertraining')
-        ||is_page('academy-resources')
-        ||is_page('academy-meetourtrainers')
-        ||is_page('academy-contactus')){ ?>
+        if(is_page('proyekfastkey')
+        ||is_page('academy')){ ?>
             <div class="pg-page_nav">
                 <div class="container">
                     <ul>
-						<li<?php if(is_page('academy-partnertraining')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('academy-partnertraining'); ?>">Partner Training</a></li>
+						<li<?php if(is_page('proyekfastkey')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('proyekfastkey'); ?>">Proyesk FastKey</a></li>
                  	   <li<?php if(is_page('academy-resources')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('academy-resources'); ?>">Resources</a></li>
-                  	 	 <li<?php if(is_page('academy-meetourtrainers')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('academy-meetourtrainers'); ?>">Meet Our Trainer</a></li>
-                    	<li<?php if(is_page('academy-contactus')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('academy-contactus'); ?>">Contact Us</a></li>
 					</ul>
                 </div>
             </div>

@@ -238,7 +238,7 @@ footer .footer-menus aside:nth-of-type(2) {
         width: 90%;
         padding: 1px 25px 23px;
     }
-    #masthead #site-navigation .menu-primary-menu-container #primary-menu li{padding:7px 11px;}
+    #masthead #site-navigation>div>#primary-menu li{padding:7px 11px;}
 }
 @media screen and (max-width: 991px) and (min-width: 768px) {
     body.page-template-news #main-slider .main-slide-item .main-slide-box .main-slide-content{width:500px;padding-left:45px;margin:0;}
@@ -309,7 +309,7 @@ footer .footer-menus aside:nth-of-type(2) {
         width: 128px;
     }
 
-    #masthead #site-navigation .menu-primary-menu-container #primary-menu li a {
+    #masthead #site-navigation>div>#primary-menu li a {
         color: #fff;
         padding: 16px 0;
         position: relative;
@@ -347,7 +347,7 @@ footer .footer-menus aside:nth-of-type(2) {
         background: unset;
     }
 
-    #masthead #site-navigation .menu-primary-menu-container #primary-menu .sub-menu li a {
+    #masthead #site-navigation>div>#primary-menu .sub-menu li a {
         color: #fff;
         padding: 6px 0;
     }

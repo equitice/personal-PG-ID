@@ -279,6 +279,7 @@ function propertyguru_scripts() {
 			)
 		)
 	);
+	wp_enqueue_style( 'oaheader-style', get_template_directory_uri() . '/assets/css/oa_header.css', array(), date('h:i:s') );
 }
 add_action( 'wp_enqueue_scripts', 'propertyguru_scripts' );
 

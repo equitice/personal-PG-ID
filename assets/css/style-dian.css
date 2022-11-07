@@ -1731,6 +1731,43 @@ body .weeklyfeature .weekly-cta .container {
 .nav-fill .nav-item:last-child {
     flex: initial;
 }
+/** 7/11/2022 changes **/ 
+/** HOMEPAGE **/
+.container_5-2 {
+    max-width: 85%;
+}
+.container_5_slick_item {
+    margin: 0 30px;
+}
+.container_5-2 .slick-dots {
+    position: initial;
+    bottom: 0;
+    margin-top: 30px;
+}
+.boxforimg .inner {
+    background-color: #F3F4F6;
+}
+.boxforimg .inner.flex-column {
+    margin-left: 0;
+}
+.boxforimg .inner.d-flex {
+    gap: initial;
+}
+.boxforimg .inner {
+    padding: 30px;
+    height: 100%;
+    border-radius: 5px;
+}
+.boxforimgs .minitext {
+    color: #0E2638;
+    font-size: 15px;
+}
+.boxforimgs .boxforimg {
+    border: 0;
+}
+.boxforimgs .boxforimg .box_img {
+    max-width: 120px;
+}
 /** RESPONSIVE **/
 @media only screen and (max-width: 1565px) {
     section.weekly-cta {
@@ -2376,6 +2413,9 @@ body .weeklyfeature .weekly-cta .container {
         justify-content: flex-start !important;
         width: 100%;
         margin-left: 0;
+    }
+    .boxforimgs .boxforimg .inner {
+        max-width: 350px;
     }
 }
 

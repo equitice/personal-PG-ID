@@ -644,6 +644,15 @@ if (typeof (cookie_default) != 'undefined' && cookie_default != null) {
 		centerMode: true,
 		arrows: true
 	});
+	$('.container_3_slick, .container_5_slick, .content3_container_right_slick').slick({
+		infinite:true,
+		slidesToShow:1,
+		slidesToScroll:1,
+		dots:true,
+		autoplay:true,
+		autoplaySpeed:4000,
+		arrows: false
+	  });
 	if ($(window).innerWidth() >= 1280) {
 		// take margin-left from other containers
 		var margin;

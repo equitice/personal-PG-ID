@@ -80,21 +80,20 @@
         }
 
         .container_2_box1 .container_2_box1_span1{
-            color:#04A45C;
-            font-size:28px;
+            color:#0E2638;
+            font-size:15px;
             font-weight:600;
         }
         .container_2_box1 .container_2_box1_span2{
             display:block;
-            color:#04A45C;
+            color:#0E2638;
             font-size: 14px;
             font-family: 'Nunito';
             font-weight: 700;
-            padding-top: 15px;
         }
         .container_2_box1 .container_2_box1_span3{
             display:block;
-            color:#04A45C;
+            color:#0E2638;
             font-size: 14px;
             font-family: 'Nunito';
         }
@@ -108,7 +107,6 @@
             text-align:center;
             line-height: 1;
         }
-
         .box2_img1{
             padding-top:10px;
             display:block;
@@ -117,7 +115,6 @@
 
         .container_2_box2_span1{
             display:block;
-            padding-top:55px;
             color:#04A45C;
             font-weight:700;
             font-size: 14px;
@@ -168,7 +165,6 @@
             font-size:14px;
             font-family: 'Nunito';
             font-weight: 700;
-            padding-top: 11px;
         }
         .container_2_box3_span3{
             color:#04A45C;
@@ -442,7 +438,7 @@
             padding-bottom:20px;   
             font-family:'Nunito';         
         }
-        .row{
+        body:not(.home) .row{
             display:flex;
             max-width:800px;
             margin:auto;
@@ -458,8 +454,8 @@
 
 
         .container_6 {
-            padding-top:35px;
-            height:291px;
+            padding:35px;
+            /* height:291px; */
             background-color:#E03C31;
         }
 

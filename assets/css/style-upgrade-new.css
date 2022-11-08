@@ -49,7 +49,7 @@ main.upgrade.v2 .non-real-time::before {
 	margin: 0 5px;
 }
 
-main.upgrade.v2 .real-time::before {
+/* main.upgrade.v2 .real-time::before {
 	content: '\f00c';
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 600;
@@ -59,7 +59,7 @@ main.upgrade.v2 .real-time::before {
 	border: 1px solid #835d9c;
 	padding: 1px;
 	margin: 0 5px;
-}
+} */
 
 main.upgrade.v2 .red-border-top-except-first .row-1 td:not(:first-child) {
 	box-shadow: 0 5px 0 #e03c31 inset;

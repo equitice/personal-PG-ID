@@ -4783,9 +4783,9 @@ main.renewal.v2 table.purple-bordered tbody {
 	border-top: 0 !important;
 }
 
-.purple-bordered tbody>tr:first-of-type>td:not(:first-of-type) {
+/* .purple-bordered tbody>tr:first-of-type>td:not(:first-of-type) {
 	border-right: 1px solid #ebebeb !important;
-}
+} */
 
 .purple-bordered tr td {
 	background-color: #f8f6f9;
@@ -4999,9 +4999,9 @@ main.renewal.v2 table.prime-new-credits .new-red {
 	margin-left: 5px;
 }
 
-main.renewal.v2 table.prime-new-credits tr:nth-of-type(4) td {
+/* main.renewal.v2 table.prime-new-credits tr:nth-of-type(4) td {
 	background: #F8B7B5;
-}
+} */
 
 main.renewal.v2 table.prime-new-credits {
 	border: 1px solid #ddd;
@@ -5053,7 +5053,7 @@ main.renewal.v2 #tablepress-85-no-2 tr td,
 	border-bottom: 0;
 	border-top: 0;
 	border-left: 0;
-	border-right: 1px solid #ddd;
+/* 	border-right: 1px solid #ddd; */
 }
 
 .faq-sec--ruu .container,

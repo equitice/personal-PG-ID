@@ -67,7 +67,7 @@ get_header();
 		<div class="breadcrumbs container">
 
 		<ol class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li><a href="<?php echo site_url(); ?>"><i class="pg-icon-home"></i></a>
-			<meta itemprop="position" content="1"></li><li >Contact Us</li><li class="active">Customer Care</li>
+			<meta itemprop="position" content="1"></li><li >Kontak</li><li class="active">Layanan Pelanggan</li>
 
 		</ol>
 
@@ -77,46 +77,47 @@ get_header();
         <div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					 <p class="pg-h3" style="padding-bottom:20px;">Send us a message by completing the form below and we'll get back to you within 2-3 working days.</p>
+					 <p class="pg-h3" style="padding-bottom:20px;">Silakan mengirimkan pesan ke kami dengan mengisi formular di bawah ini dan kami akan menghubungi Anda secepatnya di hari kerja.</p>
 				</div>
 			</div>
 			<div class="row form_map">
 				<div class="col-md-6 contact_form">
 
-                    <?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true"]'); ?>
+                    <?php echo do_shortcode('[gravityform id="4" title="false" description="false" ajax="true"]'); ?>
                 </div>
                 <div class="col-md-6 map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7633981684817!2d103.89208661744382!3d1.3175917000000084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19d3f9756d5b%3A0x9ba7e78434d96fac!2sPaya%20Lebar%20Quarter%20-%20PLQ%202!5e0!3m2!1sen!2ssg!4v1649913554103!5m2!1sen!2ssg"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.780171584141!2d106.79844361529578!3d-6.292596263342354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1faff1cea9f%3A0xb39907c62d0fe299!2sAllproperty%20Media.%20PT%20(Rumah.com)!5e0!3m2!1sen!2ssg!4v1667877639516!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <div class="contact_info">
                         <div class="single_info" id="location">
                             <div class="info_img">
                                 <img style="width:15px;"
-                                    src="<?php echo home_url('/wp-content/uploads/2022/09/location.png'); ?>">
+                                    src="<?php echo home_url('wp-content/uploads/2022/11/location_pin.png'); ?>">
                             </div>
                             <p class="pg-paragraph">
                                 <strong>PropertyGuru</strong>
                                 <br />
-                                Paya Lebar Quarter, 1 Paya Lebar Link,
+                                PT Allproperty Media (Rumah.com)
                                 <br />
-                                #12-01/04, Singapore 408533
+                                 The Manhattan Square Lantai 17,
+								<br />
+								 Jl. T.B. Simatupang, Cilandak,
+								<br />
+								 Jakarta Selatan 12430
                             </p>
                         </div>
                         <div class="single_info" id="email">
                             <div class="info_img">
-                                <img
-                                    src="<?php echo home_url('/wp-content/uploads/2022/09/email.png'); ?>">
+                                <img style="width:17px;"
+                                    src="<?php echo home_url('wp-content/uploads/2022/11/email.png'); ?>">
                             </div>
-                            <p><a href="<?php echo site_url('mailto:custcare@propertyguru.com.sg')?>" class="masked-link">custcare@propertyguru.com.sg</a></p>
+                            <p><a href="<?php echo site_url('mailto:customerservice@rumah.com')?>" class="masked-link">customerservice@rumah.com</a></p>
                         </div>
                         <div class="single_info" id="phone">
                             <div class="info_img">
                                 <img style="width:17px;"
-                                    src="<?php echo home_url('/wp-content/uploads/2022/09/telephone.png'); ?>">
+                                    src="<?php echo home_url('/wp-content/uploads/2022/11/telephone.png'); ?>">
                             </div>
-                            <p>+65 6238 5971</p>
+                            <p> +62 21 8068 1008</p>
                         </div>
 <!--                         <div class="single_info" id="youtube">
                             <div class="info_img">
@@ -135,10 +136,10 @@ get_header();
 
         <section class="flex-column last-section pg-cta pg-cta-faq">
             <h2 class="pg-h2">
-                Need additional support?
+                Butuh bantuan lebih lanjut?
             </h2>
             <p class="pg-paragraph">
-				Read our <a href="https://help.propertyguru.com.sg/en/">Help Articles</a> to get instant answers to the most common questions.
+				Simak <a href="https://bantuan.rumah.com/id/">Artikel Bantuan</a> kami untuk jawaban cepat seputar berbagai pertanyaan umum.
             </p>
 
         </section>

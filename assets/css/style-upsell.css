@@ -4942,10 +4942,10 @@ main.upsell.v2 table.prime-new-credits .new-red {
 	margin-left: 5px;
 }
 
-main.upsell.v2 table.prime-new-credits tr:nth-of-type(4) td {
+/* main.upsell.v2 table.prime-new-credits tr:nth-of-type(4) td {
 	background: #F8B7B5;
 }
-
+ */
 main.upsell.v2 table.prime-new-credits {
 	border: 1px solid #ddd;
 }

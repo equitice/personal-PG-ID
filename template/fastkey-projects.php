@@ -62,30 +62,22 @@ $parent_id = $post->ID;
 		</ol>
 	</div><section class="fastkey-section-1 container pg-intro">
         <div style="text-align:center;">
-            <p class="pg-paragraph">Connecting you to more than 500 regional developments, FastKey Projects is the key that <span
-                    class="bold">unlocks a new revenue stream</span> for all Agent Partners via <a
-                    href="https://agentnet.propertyguru.com.sg/ex_login?w=1&redirect=/ex_home" target="_blank"
-                    class="red-link">AgentNet</a>.
-            </p>
-			<br>
             <p class="pg-paragraph">
-                As Southeast Asia’s leading gateway, you have <span class="bold">more than 500 regional development
-                    projects</span> at your fingertips – ready for presentation to your clients to help them <span
-                    class="bold">find their next dream project</span>; both inside and outside our borders so you can
-                become a market expert in the eyes of your clients.
-            </p>
-			<br>
-			<br>
-            <p class="pg-paragraph">
-                What’s more, you also enjoy <span class="bold">direct access to developers’ commissions and
-                    offers</span>, so you can browse and select the developments you want to represent.
-            </p>
-			<br>
-            <p class="pg-paragraph">
-                FastKey Projects is a complimentary feature exclusively available to PropertyGuru Agent Partners via <a
-                    href="https://agentnet.propertyguru.com.sg/ex_login?w=1&redirect=/ex_home" target="_blank"
-                    class="red-link">AgentNet</a>.
-            </p>
+				 <p>
+                    Menghubungkan Anda ke lebih dari 500 proyek pengembang dari luar negeri, Proyek Fastkey adalah kunci untuk <span
+                    class="bold">membuka peluang pendapatan baru untuk seluruh Mitra Agen</span> melalui AgentNet.
+                    <br>
+                    <br>
+                    Sebagai pintu gerbang terkemuka di Asia Tenggara, Anda <b>memiliki lebih dari 500 proyek para pengembang properti</b> di ujung jari Anda – siap untuk Anda presentasikan ke pelanggan Anda untuk membantu mereka <b>menemukan proyek impian berikutnya</b>, baik di dalam maupun di luar batas negara sehingga Anda dapat menjadi ahli properti di depan mata pelanggan Anda.
+                    <br>
+                    <br>
+                    Lebih lanjut, Anda juga dapat menikmati <b>akses langsung ke komisi dan penawaran dari berbagai pengembang properti</b>, sehingga Anda dapat menelusuri dan memilih proyek pengembang properti yang ingin Anda presentasikan.
+                    <br>
+                    <br>
+                    Proyek Fastkey adalah sebuah fitur gratis yang tersedia secara ekslusif untuk Mitra Agen Rumah.com melalui <a class="pg-link" href="https://agentnet.rumah.com/">AgentNet</a>.
+
+                </p>
+
         </div>
     </section>
 
@@ -99,47 +91,48 @@ $parent_id = $post->ID;
         </div>
 <div class="container"><div class="flex-row red-white-container" style="width:initial;padding-left:20px!important;border:initial;margin-top:0;">
             <div class="col-sm-5 col-md-4">
-                <img src="<?php echo home_url(); ?>/wp-content/uploads/2022/09/pgfastkey_thumbnail1_v2.jpg">
+                <img src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/FastKey_Image_01.png">
             </div>
             <div class="red-white-block flex-column col-sm-7 col-md-8" style="margin-left:0;">
                 <h3 class="pg-h3 mb-0">
-                    Direct Access to Developers’ Commissions and Offers
+                    Akses Langsung ke Komisi dan Penawaran Berbagai Pengembang Properti
                 </h3>
 				<br>
                 <p class="red-white-container-text pg-paragraph">
-                    Open yourself to overseas market opportunities and additional income streams with direct access to
-                    developers’ commissions and offers.
+                    Buka diri Anda ke peluang pasar luar negeri dan tambahan pemasukan dengan akses langsung ke komisi dan penawaran dari berbagai pengembang properti.
                 </p>
             </div>
         </div>
 
         <div class="flex-row red-white-container" style="width:initial;padding-left:20px!important;border:initial;">
             <div class="col-sm-5 col-md-4">
-                <img src="<?php echo home_url(); ?>/wp-content/uploads/2022/09/pgfastkey_thumbnail2_v2-scaled.jpg">
+                <img src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/FastKey_Image_02.png">
             </div>
             <div class="red-white-block flex-column col-sm-7 col-md-8" style="margin-left:0;">
                 <h3 class="pg-h3 mb-0">
-                    Your Perfect Tool to Finding Your Client’s Next Dream Project
+                   Fitur Sempurna Anda untuk Menemukan Proyek Impian Berikutnya dari Pelanggan Anda
                 </h3>
 				<br>
                 <p class="red-white-container-text pg-paragraph">
-                    Get ready access to a comprehensive suite of project information and use them as ready-made sales kits to pitch projects to your clients, and become their trusted market expert. Through FastKey Projects, you’ll have access to:
+                   Bersiaplah untuk mengakses rangkaian informasi proyek yang komprehensif dan gunakan mereka sebagai alat jualan yang selalu siap untuk menawarkan berbagai proyek ke pelanggan Anda, dan jadilah ahli pasar properti terpercaya.
+
+Melalui Proyek Fastkey, Anda dapat mengakses ke:
 					</p>
 					<ul class="pg-paragraph re-ul" style="padding-left:initial;max-width:initial;">
                         <li>
-                            Available commission
+                            Komisi yang tersedia
                         </li>
                         <li>
-                            Project description and price
+                            Gambaran proyek dan harga
                         </li>
                         <li>
-                            Development site & stack, floor plans and units  
+                            Lokasi pengembang, floor plans dan unit  
                         </li>
 						<li>
-                            Developer and agency contacts
+                            Kontak pengembang properti dan kantor agen
                         </li>
                         <li>
-                            E-brochures
+                            Brosur elektronik
                         </li>
                     </ul>
             </div>
@@ -147,16 +140,15 @@ $parent_id = $post->ID;
 
         <div class="flex-row red-white-container" style="width:initial;padding-left:20px!important;border:initial;">
             <div class="col-sm-5 col-md-4">
-                <img src="<?php echo home_url(); ?>/wp-content/uploads/2022/09/pgfastkey_thumbnail3_v2.jpg" >
+                <img src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/FastKey_Image_03.png" >
             </div>
             <div class="red-white-block flex-column col-sm-7 col-md-8" style="margin-left:0;">
                 <h3 class="pg-h3 mb-0">
-                    Open Yourself to Opportunities & Income, Within and Beyond Singapore
+                    Buka Diri Anda ke Berbagai Peluang & Pemasukan, Dalam dan Luar Indonesia
                 </h3>
 				<br>
                 <p class="red-white-container-text pg-paragraph">
-                    Discover over 500 developments around the region. Don’t let yourself miss out on the most exciting
-                    and promising developments within and beyond Singapore!
+                    Jelajahi lebh dari 500 proyek pengembang properti di luar negeri. Jangan biarkan Anda melewatkan kesempatan yang sangat menarik dan proyek pengembang yang menjanjikan di dalam dan luar Indonesia!
                 </p>
             </div>
         </div>
@@ -167,7 +159,7 @@ $parent_id = $post->ID;
 		<div class="row text-center">
 			<div class="col-12">
 				<h2 class="pg-h2" >
-            		FastKey Projects on Your AgentNet
+            		Proyek FastKey di AgentNet Anda
         		</h2>
 			</div>
 
@@ -177,51 +169,49 @@ $parent_id = $post->ID;
 
             <div class="single">
                 <img
-                    src="<?php echo home_url(); ?>/wp-content/uploads/2022/10/screen1.gif">
+                    src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/FastKey_Carousel_01.gif">
                 <div class="text_below pg-h3" style="text-align: center;">
-                    Access 500+ developments on <span class="red-link">‘FastKey Projects’</span> via AgentNet.
+                    Akses Menjual 500++ properti luar negeri d <span class="red-link">‘FastKey Projects’</span> melalui AgentNet.
                 </div>
             </div>
             <div class="single">
                 <img
-                    src="<?php echo home_url(); ?>/wp-content/uploads/2022/10/screen2.gif">
+                    src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/FastKey_Carousel_02.gif">
                 <div class="text_below pg-h3" style="text-align: center;">
-                    <span class="red-link">Browse 500 developments</span> all in one place.
+                    Jelajahi lebih<span class="red-link">dari 500 proyek</span> dari satu tempat.
                 </div>
             </div>
             <div class="single">
                 <img
-                    src="<?php echo home_url(); ?>/wp-content/uploads/2022/10/screen3.gif">
+                    src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/FastKey_Carousel_03.gif">
                 <div class="text_below pg-h3" style="text-align: center;">
-                    Click into any development and get <span class="red-link"> instant access to a myriad of
-                        information</span>, right at your fingertips.
+                    Klik proyek dan dapatkan<span class="red-link"> akses instan ke segudang informasi</span>, tepat diujung jari Anda.
                 </div>
             </div>
             <div class="single">
                 <img
-                    src="<?php echo home_url(); ?>/wp-content/uploads/2022/10/screen4.gif">
+                    src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/FastKey_Carousel_04.gif">
                 <div class="text_below pg-h3" style="text-align: center;">
-                    Check out <span class="red-link">‘Quick Links’</span> for more comprehensive
-                    development information.
+                    Kilk <span class="red-link">‘Quick Links’</span> untuk informasi pengembangan yang lebih komprehensif.
                 </div>
             </div>
             <div class="single">
                 <img
-                    src="<?php echo home_url(); ?>/wp-content/uploads/2022/10/screen5.gif">
+                    src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/FastKey_Carousel_05.gif">
                 <div class="text_below pg-h3" style="text-align: center;">
-                    <span class="red-link">Discover amenities</span> around the neighbourhood.
+                    <span class="red-link">Temukan fasilitas</span> di sekitar properti.
                 </div>
             </div>
             <div class="single">
                 <img
-                    src="<?php echo home_url(); ?>/wp-content/uploads/2022/10/screen6.gif">
+                    src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/FastKey_Carousel_06.gif">
                 <div class="text_below pg-h3" style="text-align: center;">
-                    <span class="red-link">Contact developer</span> and start selling today.
+                    <span class="red-link">Hubungi pengembang</span> dan mulailah berjualan hari ini.
                 </div>
             </div>
         </div><br><br>
 			<a href="https://agentnet.propertyguru.com.sg/fastkey" target="_blank" class="red-button">
-            Start Discovering Regional Developments
+            Mulai Menjelajah Proyek Luar Negeri
         </a>
 			</div>
 
@@ -232,9 +222,12 @@ $parent_id = $post->ID;
         <div class="container">
 			<div class="row">
 				<div class="col-md-4">
-                <h2 class="pg-h2">Frequently Asked Questions</h2>
-                <p class="" style="font-family:'Poppins',sans-serif; font-weight: 500">Refer to full FAQ <a
-                        href="https://help.propertyguru.com.sg/en/collections/2427584-all-about-fastkey-projects" target="_blank" class="red-link" style="font-family:'Poppins',sans-serif; font-weight: 500">here.</a></p>
+                <h2 class="pg-h2">Pertanyaan yang sering ditanyakan</h2>
+                <p class="" style="font-family:'Poppins',sans-serif; font-weight: 500">Temukan informasi lebih lanjut melalui <a
+                        href="https://bantuan.rumah.com/id/" target="_blank" class="red-link" style="font-family:'Poppins',sans-serif; font-weight: 500">Artikel Bantuan</a></p>
+					<br />
+				<p class="" style="font-family:'Poppins',sans-serif; font-weight: 500">	<a href="https://bantuan.rumah.com/id/articles/4205930-tentang-proyek-fastkey" class="red-link" target="_blank">Tentang Proyek Fastkey</a><br />
+					<a href="https://bantuan.rumah.com/id/articles/4205993-cara-menggunakan-menu-proyek-fastkey" class="red-link" target="_blank"> Bagaimana Menavigasikan Proyek Fastkey</a></p>
 					</div>
 				<div class="accordion-wrapper offset-md-1 col-md-7 offset-lg-2 col-lg-6">
             <div class="accordion" id="homeloanaccord" style="max-width: fit-content">
@@ -242,13 +235,13 @@ $parent_id = $post->ID;
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            What is Fastkey Projects?
+                            Apa saja tipe proyek pengembangan yang di listing di Proyek Fastkey?
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-parent="#homeloanaccord">
                         <div class="accordion-body">
-                             <p class="pg-paragraph">FastKey Projects is a marketplace feature on AgentNet that connects agent partners to more than 500 developer projects regionally.</p>
+                             <p class="pg-paragraph">Proyek Fastkey mencakup proyek properti sebelum peluncuran hingga siap untuk ditempati, baik rumah tapak maupun komersial.</p>
 
                         </div>
                     </div>
@@ -257,24 +250,14 @@ $parent_id = $post->ID;
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            How does FastKey Projects benefit agents like myself?
+                            Apakah saya dapat mengakses Proyek Fastkey?
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-parent="#homeloanaccord">
                         <div class="accordion-body">
-                            <p class="pg-paragraph" style="padding-top:20px">With FastKey Projects, agent partners can enjoy the following at no extra cost:</p>
-								 <ul class="pg-ul" style="padding-top:20px">
-                    <li class="pg-paragraph">Extensive marketplace to over 500 developer projects within the region, all ready for you to explore, pick and sell
-</li>
-                    <li class="pg-paragraph">Comprehensive suite of project information readily available to assist you in your sales pitch
-</li>
-                    <li class="pg-paragraph">Be empowered by this perfect sales too to help your clients find their next dream project
-</li>
-                    <li class="pg-paragraph">Direct access to developers’ offers and commissions to grow your income
-</li>
-                </ul>
-
+                            <p class="pg-paragraph" style="padding-top:20px">Ya! Selama Anda adalah pelanggan agen aktif, Anda dapat mengakses Proyek Fastkey di AgentNet</p>
+								 
                         </div>
                     </div>
                 </div>
@@ -282,13 +265,13 @@ $parent_id = $post->ID;
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            What types of developments are listed on FastKey Projects?
+                            Apakah saya perlu membayar untuk dapat mengakses Proyek Fastkey?
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-parent="#homeloanaccord">
                         <div class="accordion-body">
-                            <p class="pg-paragraph" style="padding-top:20px">FastKey Projects covers pre-launch to ready-to-move-in residential and commercial developments.
+                            <p class="pg-paragraph" style="padding-top:20px">Tidak. Proyek Fastkey gratis untuk seluruh pelanggan agen aktif Rumah.com
                             </p>
 
                         </div>
@@ -301,11 +284,16 @@ $parent_id = $post->ID;
         </div>
     </section>
 	<!-- FAQ End -->
+	<section class="flex-column last-section pg-cta pg-cta-faq">
+		<h2 class="pg-h2">
+			Untuk pertanyaan lainnya, dapat melihat di Pusat Bantuan. Atau, hubungi Customer Service kami di <a href="mailto:customersevice@rumah.com" target="_self"><strong>customersevice@rumah.com</strong></a>
+		</h2>
+	</section>
 	<section class="poweredby container">
 		<div class="row">
 			<div class="col-12">
 				<p class="pg-paragraph text-center" style="padding:20px;">
-					Powered by PropertyGuru FastKey
+					Dipersembahkan oleh PropertyGuru FastKey
 				</p>
 			</div>
 		</div>

@@ -16,6 +16,17 @@ get_header();
   		border-style: none;
 		}
 		h2 img{width:5%;}
+		
+		section.terms-section.pg-section .container .row .col-12 ul {
+    list-style-type: revert;
+			padding-left: 0px;
+}
+		.pg-h2{
+			font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+		}
     </style>
     <?php }?>
     <?php if (get_field('banner_image_mobile')) {
@@ -60,7 +71,7 @@ get_header();
 		<div class="breadcrumbs container">
 
 		<ol class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList" style="margin:0px"><li><a href="<?php echo site_url(); ?>"><i class="pg-icon-home"></i></a>
-			<meta itemprop="position" content="1"></li><li>Agent Packages</li><li class="active">Upsell</li>
+			<meta itemprop="position" content="1"></li><li>Paket Berlangganan</li><li class="active">Subscribe</li>
 
 		</ol>
 
@@ -96,14 +107,12 @@ get_header();
 					
 						<div class="col-12">
 
-							<h2 class="pg-h2"><img src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/essentials-icon.png"> Essentials</h2>
+							<h2 class="pg-h2"><img src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/essentials-icon.png"> Paket Berlangganan</h2>
 
 
 
                 <?php echo do_shortcode('[table id=86]');?>
-                <div class="d-flex flex-row justify-content-center" style="padding-top:20px">
-                    <p class="pg-paragraph"><strong>What are Prime Credits?</strong> With <a href="<?php echo home_url(); ?>/primecredits" class="red-link" target="_blank"><strong>Prime Credits</strong></a>, you can Book, Reserve and Extend <a href="<?php echo home_url(); ?>/featuredagent/" target="_blank" class="red-link"><strong>Featured Agent</strong></a> slots.</p>
-                </div>
+                
 								</div>
 					</div>
 				</div>
@@ -113,32 +122,25 @@ get_header();
                 <div class="row">
 						<div class="col-12">
 
-							<h2 class="pg-h2"><img src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/powerups-icon.png"> Powerups</h2>
+							<h2 class="pg-h2"><img src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/powerups-icon.png"> Fitur Ekstra</h2>
 						</div>
- 						<div class="col-12 powerup-text">
-							<p class="pg-paragraph">Market Insights powered by <strong>PropertyGuru DataSense</strong> | <a href="<?php echo home_url(); ?>/marketinsights" target="_blank" class="red-link" style="text-decoration: underline !important">Learn more</a></p>
-						</div>
+ 						
 					<div class="col-12">
 						<?php echo do_shortcode('[table id=83 /]'); ?>
 					</div>
 
 
 
-                <div class="d-flex flex-row justify-content-center" style="padding-top:10px;">
-                    <p class="pg-caption non-real-time">Non real-time: Data updates approx. 6 weeks and above</p>
-                    <p class="pg-caption real-time">Real-time: Data updates approx. within 7 days</p>
-                </div>
+                
             </div>
 				</div>
             <div class="container value-add" style="margin-bottom:0px;">
 				<div class="row">
 					<div class="col-12">
-						<h2 class="pg-h2"><img src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/value-add-icon.png"> Value-Add</h2>
+						<h2 class="pg-h2"><img src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/value-add-icon.png"> Nilai Tambah</h2>
 					</div>
 
-                <div class="col-12 valueadd-text">
-                    <p class="pg-paragraph"><strong>PropertyGuru Partner360</strong> | <a href="<?php echo home_url(); ?>/partner360" target="_blank" class="red-link" style="text-decoration: underline !important">Learn more</a></p>
-				</div>
+                
 
                 </div>
 				<div class="col-12">
@@ -146,7 +148,7 @@ get_header();
 		        </div>
 					<div class="col-12 text-center">
                
-					<a href="<?php echo home_url();?>/accountmanagers/" class="red-button" style="margin-top:40px;margin-bottom:20px;">Get a Recommendation</a>
+					<a href="<?php echo home_url();?>/tanyasales/" class="red-button" style="margin-top:40px;margin-bottom:20px;">Pelajari Selengkapnya</a>
 					<p>Belum yakin paket mana yang sesuai?
 						<br>
 					Tinggalkan kontak Anda di <a class="red-link" href="#">laman ini</a> untuk dapat kami hubungi.</p>
@@ -163,7 +165,9 @@ get_header();
             <h2 class="heading heading--sec pg-h2">Dapatkan akses hingga 3 juta pencari properti setiap bulan!</h2>
             <div class="content">
                 <div class="description" style="margin-top:20px">
-                    <p class="pg-paragraph text-sm-left">Hubungi disini untuk memperbarui akun Anda hari ini</p>					
+                    <p class="pg-paragraph text-sm-left">Hubungi 
+						<a class="red-link" href="#">disini</a> 
+						untuk memperbarui akun Anda hari ini</p>					
                 </div>
 				</div>
 
@@ -181,8 +185,7 @@ get_header();
 			<div class="row">
 				<div class="col-md-4">
                 <h2 class="pg-h2">Pertanyaan yang sering ditanyakan</h2>
-               <p class="" > <a
-                        href=" http://help.propertyguru.com.sg/en/articles/6583906-new-subscriber-terms-and-condition" target="_blank" class="red-link" style="font-family:'Poppins',sans-serif; font-weight: 500">T&Cs apply</a></p>
+               
 
 					</div>
 				<div class="accordian-wrapper offset-md-1 col-md-7 offset-lg-2 col-lg-6">
@@ -213,26 +216,11 @@ get_header();
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-parent="#homeloanaccord">
                         <div class="accordion-body">
-                            <p class="pg-paragraph" style="padding-top:15px">It is mandatory to be a certified real estate agent with CEA, before you can market any property listing. You need to have a CEA license to subscribe to our package.</p>
+                            <p class="pg-paragraph" style="padding-top:15px">Pemindahan kepemilikan akun tidak dapat dilakukan untuk paket apapun.</p>
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item" style="margin-bottom: auto;">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Can I transfer my account subscription to my colleague?
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-parent="#homeloanaccord">
-                        <div class="accordion-body">
-                            <p class="pg-paragraph" style="padding-top:15px">Transfer of account is not applicable at all instances.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
+               
             </div>
 			</div>
 			</div>

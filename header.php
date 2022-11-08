@@ -71,8 +71,7 @@
 		if(
         is_page('fastkeyprojects')
         ||is_page('homeloanreferral')
-        ||is_page('rewards')
-        ||is_page('academy')  
+        ||is_page('rewards') 
 		||is_page('elite-birthday-treat')
 		||is_page('anniversary-benefits')
         ||is_page('partner360')
@@ -86,7 +85,7 @@
                 <ul>
                     <li<?php if(is_page('homeloanreferral')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('homeloanreferral'); ?>">PropertyGuru Finance</a></li>
                     <li<?php if(is_page('fastkeyprojects')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('fastkeyprojects'); ?>">PropertyGuru FastKey</a></li>
-                    <li<?php if(is_page('academy')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('academy'); ?>">Partner360 Academy</a></li>
+                    <li<?php if(is_page('academy')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('academy'); ?>">Rumah Academy</a></li>
                     <li<?php if(is_page('rewards')||is_page('elite-birthday-treat')||is_page('anniversary-benefits')||is_page('elite')||is_page('milestone')||is_page('birthdaytreat')||is_page('prestige')||is_page('birthdaytreat-solitaire')||is_page('birthdaytreat-titanium')||is_page('birthdaytreat-platinum')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('rewards'); ?>">Partner360 Rewards</a></li>
 				</ul>
             </div>
@@ -105,7 +104,7 @@
                 <ul>
 <!--                     <li<?php if(is_page('marketinsights')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('marketinsights'); ?>">Market Insights</a></li> -->
 <!--                     <li<?php if(is_page('featuredagent')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('featuredagent'); ?>">Featured Agents</a></li> -->
-                    <li<?php if(is_page('turbo')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('turbo'); ?>">Turbo</a></li>
+                    <li<?php if(is_page('turbo')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('turbo'); ?>">Turbo Sundul</a></li>
 <!--                     <li<?php if(is_page('boost')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('boost'); ?>">Boost</a></li> -->
 					<li<?php if(is_page('spotlight')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('spotlight'); ?>">Spotlight Sundul</a></li>
 					<li<?php if(is_page('fiturpremium')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('fiturpremium'); ?>">Produk Spesialis</a></li>
@@ -166,7 +165,7 @@ if(
                 <div class="container">
                     <ul>
 						<li<?php if(is_page('proyekfastkey')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('proyekfastkey'); ?>">Proyesk FastKey</a></li>
-                 	   <li<?php if(is_page('academy-resources')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('academy-resources'); ?>">Resources</a></li>
+                 	   <li<?php if(is_page('academy')){ ?> class="active"<?php } ?>><a href="<?php echo home_url('academy'); ?>">Rumah Academy</a></li>
 					</ul>
                 </div>
             </div>

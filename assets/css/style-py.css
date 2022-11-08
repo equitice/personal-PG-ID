@@ -371,7 +371,7 @@ section.red-hero .container.text_banner .header-desc{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 50px;
+/*     margin-left: 50px; */
 }
 .flex-row .img-left{
     min-width: 220px;

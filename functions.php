@@ -198,6 +198,7 @@ add_action( 'widgets_init', 'propertyguru_widgets_init' );
 function propertyguru_scripts() {
 	wp_enqueue_style( 'propertyguru-nunito-fonts', 'https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap', array(), _S_VERSION );
 	wp_enqueue_style( 'propertyguru-roboto-fonts', 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap', array(), _S_VERSION );
+	wp_enqueue_style( 'propertyguru-poppins-fonts', 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap', array(), _S_VERSION );
 	wp_enqueue_style( 'propertyguru-crossten-semibold-fonts', get_template_directory_uri() . '/assets/fonts/crossten_semibold.otf', array(), _S_VERSION );
 
 

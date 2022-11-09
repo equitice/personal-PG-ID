@@ -1603,11 +1603,11 @@ body .weeklyfeature .weekly-cta .container {
 }
 
 .slick-next:before {
-    background-image: url('https://www.agentofferings.propertyguru.com.sg/wp-content/uploads/2022/05/arrow-right.png');
+    background-image: url('../img/arrow-right.webp');
 }
 
 .slick-prev:before {
-    background-image: url('https://www.agentofferings.propertyguru.com.sg/wp-content/uploads/2022/05/arrow-left.png');
+    background-image: url('../img/arrow-left.webp');
 }
 
 .fastkey .padding {

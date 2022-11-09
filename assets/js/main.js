@@ -686,4 +686,12 @@ if (typeof (cookie_default) != 'undefined' && cookie_default != null) {
 		});
 	});
 
+	$('.academy_slider').slick({
+		dots: true,
+		infinite: true,
+		arrows: true,
+  		slidesToShow: 1,
+  		slidesToScroll: 1,
+	});
+
 })(jQuery);

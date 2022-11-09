@@ -63,7 +63,7 @@ $parent_id = $post->ID;
 	</div><section class="fastkey-section-1 container pg-intro">
         <div style="text-align:center;">
             <p class="pg-paragraph">
-				 <p>
+				 
                     Menghubungkan Anda ke lebih dari 500 proyek pengembang dari luar negeri, Proyek Fastkey adalah kunci untuk <span
                     class="bold">membuka peluang pendapatan baru untuk seluruh Mitra Agen</span> melalui AgentNet.
                     <br>
@@ -285,9 +285,11 @@ Melalui Proyek Fastkey, Anda dapat mengakses ke:
     </section>
 	<!-- FAQ End -->
 	<section class="flex-column last-section pg-cta pg-cta-faq">
-		<h2 class="pg-h2">
+		<div class="container">
+			<h2 class="pg-h2">
 			Untuk pertanyaan lainnya, dapat melihat di Pusat Bantuan. Atau, hubungi Customer Service kami di <a href="mailto:customersevice@rumah.com" target="_self"><strong>customersevice@rumah.com</strong></a>
-		</h2>
+			</h2>	
+		</div>
 	</section>
 	<section class="poweredby container">
 		<div class="row">

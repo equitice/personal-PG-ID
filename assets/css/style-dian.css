@@ -449,10 +449,6 @@ section.contact-sec #gform_wrapper_4 {
     flex-direction:column;
 }
 
-#gform_4 .gform_fields .gfield,
-#gform_5 .gform_fields .gfield {
-    margin-top: 10px !important;
-}
 
 #gform_4 .gform_fields .gfield *,
 #gform_5 .gform_fields .gfield * {
@@ -473,11 +469,6 @@ section.contact-sec #gform_wrapper_4 {
 
     border-radius: 4px !important;
 }
-
-#gform_4 .gform_fields .gfield input::placeholder {
-    color: #2c2c2c;
-}
-
 #gform_4 .gform_fields .gfield select {
     border-radius: 4px !important;
     margin-left: 0;
@@ -921,12 +912,18 @@ section.faq-accord .accordion {
     box-shadow: none;
     border-color: transparent;
 }
-
+.accordion .accordion-button:not(.collapsed):after{
+	transform:rotate(-180deg);}
 .accordion .accordion-button:after,
 .accordion .accordion-button:not(.collapsed):after {
     content: '';
-    background-size: 13px;
+    background-size: contain;
     background-position: center;
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 20px;
+	display: inline-block;
+	transition:transform .2s ease-in-out;
 }
 
 .accordion .accordion-button:after {
@@ -947,6 +944,7 @@ section.faq-accord .accordion {
 .accordion .accordion-item * {
     border: 0 !important;
 }
+.accordion-button{text-align:left;display:flex;align-items:center;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;}
 .accordion-button:not(.collapsed){box-shadow:unset;}
 .accordion .accordion-item {
     border: 1px solid #d4d4d2 !important;
@@ -1459,7 +1457,7 @@ section.choose-package tbody>tr:first-of-type>td {
 section.choose-package tbody>tr:first-of-type>td:first-of-type {
     font-size: 35px;
     color: rgb(30, 36, 46);
-    padding-left: 20px !important;
+    padding-left: 30px !important;
     text-align: left;
 }
 
@@ -2618,4 +2616,8 @@ body.page-template-news #main-slider .main-slide-item .main-slide-box p{font-fam
 	body #masthead #site-navigation {
     	margin-left:initial;margin-right:initial;
 	}
+}
+@media screen and (max-width: 640px) {
+	#input_4_7_3_container{margin-bottom:16px;}
+	#input_4_7_6_container{margin-bottom:0;}
 }

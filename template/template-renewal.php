@@ -19,12 +19,7 @@ get_header();
     list-style-type: revert;
 			padding-left: 0px;
 }
-		.pg-h2{
-			font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 30px;
-		}
+		
     </style>
     <?php }?>
     <?php if (get_field('banner_image_mobile')) {
@@ -159,7 +154,7 @@ get_header();
 		        </div>
                 	<div class="col-12 text-center">
                
-					<a href="<?php echo home_url();?>/accountmanagers/" class="red-button" style="margin-top:40px;margin-bottom:20px;">Pelajari Selengkapnya</a>
+					<a href="<?php echo home_url();?>/tanyasales/" class="red-button" style="margin-top:40px;margin-bottom:20px;">Pelajari Selengkapnya</a>
 					<p>Belum yakin paket mana yang sesuai?<br>
 					Tinggalkan kontak Anda di <a class="red-link" href="#">laman ini</a> untuk dapat kami hubungi.</p>
 		        </div>
@@ -193,11 +188,11 @@ get_header();
                 <h2 class="pg-h2">Pertanyaan yang sering ditanyakan</h2>
                
 					</div>
-				<div class="accordion-wrapper offset-md-1 col-md-7 offset-lg-2 col-lg-6">
+				<div class="accordion-wrapper offset-md-1 col-md-7 offset-lg-1 col-lg-6">
             <div class="accordion" id="homeloanaccord" style="max-width: fit-content">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button d-flex align-items-center" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                              Kapan saya dapat memperbaharui akun saya?
                         </button>
@@ -212,7 +207,7 @@ get_header();
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed d-flex align-items-center" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             Apakah akun yang sudah di upgrade dapat di refund?
 						</button>

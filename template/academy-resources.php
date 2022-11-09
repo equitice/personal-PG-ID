@@ -115,7 +115,7 @@ $cate = $_GET['cate']??'all';
 	<section style="background-color: #f2f2f2; margin-top:0px;padding-bottom:80px">
 	<div class="breadcrumbs container">
 		<ol class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li><a href="<?php echo site_url(); ?>"><i class="pg-icon-home"></i></a>
-			<meta itemprop="position" content="1"></li><li><a href="<?php echo home_url('partner360'); ?>">Partner360</a></li><li class="active">PropertyGuru Academy</li>
+			<meta itemprop="position" content="1"></li><li><a href="<?php echo home_url('pendukung'); ?>">Pendukung</a></li><li class="active">Rumah Academy</li>
 		</ol>
 	</div>
 
@@ -124,12 +124,9 @@ $cate = $_GET['cate']??'all';
  <div class="container">
         <div class="row">
 					<div class="col-12" style="text-align:center">
-            <p class="pg-paragraph">As part of PropertyGuru Partner360’s commitment in empowering our agent partners to become the best property professionals, Partner360 Academy is PropertyGuru’s continuous education institution that empowers our agent partners for tech-enabled growth in your real estate career.
+            <p class="pg-paragraph">Carousel to be here
             </p>
-			<br>
-            <p class="pg-paragraph">
-                Whether you’re a early-stage or seasoned agent, at Partner360 Academy, we’ve compiled a wide variety of learning plans and resources covering from AgentNet basics to online marketing and lead generation to continuously equip you with market-relevant skills to succeed in real estate and ensure you get the most out of your partnership with PropertyGuru.
-            </p>
+
 
 
 					</div>
@@ -141,10 +138,11 @@ $cate = $_GET['cate']??'all';
 			<div class="container">
 				<div class="row" >
 					<div class="col-12" style="text-align:center">
-						<h2 class="pg-h2 mb-3">Get Started with On-Demand Bite-Sized Learning 24/7</h2>
-						<p class="pg-paragraph">We've put together a comprehensive collection of bite-sized learning videos, covering everything from AgentNet basics to online marketing, lead generation and personal branding, so you can learn them at your own time and pace!</p>
+						<h2 class="pg-h2 mb-3">Mulai Pembelajaran Sesuai Kebutuhan Anda
+Dalam Waktu Singkat Kapan Saja.</h2>
+						<p class="pg-paragraph">Kami menampilkan berbagai koleksi komprehensif berbagai video singkat, yang meliputi banyak hal terkait dasar AgentNet hingga pemasaran online, menghasilkan leads serta citra personal Anda, sehingga Anda dapat mempelajarinya sesuai dengan ketersediaan waktu dan ritme yang Anda inginkan!</p>
 						<br>
-						<p class="pg-paragraph">You can listen in the car, while you're working out or when you have a few minutes between home viewings - it doesn't matter, as long as you make the commitment to learn and get the most out of what PropertyGuru has to offer!</p>
+						<p class="pg-paragraph">Anda dapat mendengarkannya di perjalanan, bahkan ketika Anda sedang di lapangan atau bahkan ketika Anda hanya memiliki beberapa menit di antara waktu kunjungan properti - hal ini tidak masalah, selama Anda memiliki komitmen untuk belajar serta memperoleh berbagai pengetahuan terkini yang ditawarkan Rumah.com!</p>
 					</div>
 				</div>
 				<div class="row videos-filters">
@@ -181,7 +179,7 @@ $cate = $_GET['cate']??'all';
 					<div class="col-md-4 pt-4 pt-md-0 videos-filters-search">
 						<input id="videos-filters-search-text" type="text" placeholder="Search for a video...">
 						<button type="submit">
-    					<img id="videos-filters-search-button" src="<?php echo home_url(); ?>/wp-content/uploads/2022/10/Search_icon.png" />
+    					<img id="videos-filters-search-button" src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/Search_icon.png" />
 						</button>
 
 					</div>
@@ -375,10 +373,90 @@ $the_query = new WP_Query( $args );
 
 			</div>
 		</section>
+	
+		<section style="background-color: #f2f2f2; margin-top:0px;padding-bottom:80px">
+  		<div class="container">
+        <div class="row">
+					<div class="col-12" style="text-align:center">
+            <p class="pg-paragraph">Webinar nya sangat berharga karena banyak data-data aktual market yang di sampaikan, apalagi dalam kondisi pandemi seperti ini di mana market properti masih diminati. <br> <strong>Then Budi,<br>
+RayWhite Central BSD</strong>
+            </p>
+						<p class="pg-paragraph">Materi penjelasannya sangat membantu, jelas, mudah dipahami dan tidak bikin ngantuk/bosan. Jangka waktu yang disajikan juga pas dengan kebutuhan. <br> <strong>Zarah Mangundap,<br> Hartcourts Tomang</strong>
+            </p>
+						
+			<p class="pg-paragraph">Webinar Rumah.com sangat menarik dan sangat membantu dalam usaha saya. Sangat informatif dan mengulas mulai sisi general sampai dengan sisi teknis yang specific.<br> <strong>Sisi Ayub,<br>
+EPIC Bali Property</strong>
+            </p>
+						
+			<p class="pg-paragraph">Webinar nya sangat berharga karena banyak data-data aktual market yang di sampaikan, apalagi dalam kondisi pandemi seperti ini di mana market properti masih diminati.<br> <strong>Jamianto,<br>
+Agen Independen</strong>
+            </p>
+					</div>
+        </div>
+		</div>
+    </section>
+	
+	<section style="background-color: #ffffff; margin-top:0px;padding-bottom:80px">
+  		<div class="container">
+        <div class="row">
+					<div class="col-12" style="text-align:center">
+            <h2 class="pg-h2">
+							Ikuti Training Kami! Gratis!
+					</h2>
+						<p class="pg-paragraph"><strong>Perhatian:</strong> Anda Wajib klik 2 link yang berbeda di bawah ini bila ingin mengikuti Sesi 1, Sesi 2, dan Sesi 3.
+            </p>
+						<br>
+						<p class="pg-paragraph"><strong>Sesi 1:</strong> Pencari Properti & Anda <br>
+							<strong>Sesi 2:</strong> Pasang & Pantau Kinerja Iklan Anda<br>
+Daftar Sesi 1 dan Sesi 2 sekarang 
+            </p>
+						<p class="pg-paragraph"><strong>Sesi 3:</strong> Optimasi Kinerja Listing <br>
+Daftar Sesi 3 sekarang >
+            </p>
+						
+					</div>
+        </div>
+		</div>
+    </section>
+	
+	<section style="background-color: #f2f2f2; margin-top:0px;padding-bottom:80px">
+  		<div class="container">
+        <div class="row">
+					<div class="col-12" style="text-align:center">
+						<h3 class="pg-h3 mb-0">Best Practices</h3>
+						<ul class="pg-paragraph re-ul"> 
+							<li>Langkah awal promosi listing online</li>
+							<li>Pasang & Pantau Kinerja Iklan Listing Properti</li>
+							<li>Tingkatkan/ Optimasi Kinerja Iklan Listing</li>
+            </p>
+						
+						<h3 class="pg-h3 mb-0">Fitur Baru</h3>
+				<ul class="pg-paragraph re-ul">
+					<li>Aplikasi ponsel AgentNet baru</li>
+					<li>Fitur Panggilan Video</li>
+				 Baca Lebih Banyak >
+            </ul>
+						
+						<h3 class="pg-h3 mb-0">Sumber</h3>
+				<ul class="pg-paragraph re-ul">
+											   <li>Live Chat</li>
+											   <li>Bantuan Layanan Mandiri</li>
+											   <li>Aplikasi iOS</li>
+											   <li>Aplikasi Android</li>
+					</ul>
+					</div>
+        </div>
+		</div>
+    </section>
+	
+	
 		<section class="flex-column last-section pg-cta">
 					<h2 class="pg-h2">
-							Have more questions? Check out our <a href="https://help.propertyguru.com.sg/en/" target="_blank">Help Centre</a>.
+							Tim kami siap membantu Anda, <br>
+<strong>chat dengan kami secara langsung melalui AgentNet.</strong>
 					</h2>
+			<p class="pg-paragraph" style="color:#ffffff">Hubungi: 021 806 81 008 <br>
+				Email ke: customerservice@rumah.com</p>
 
 			</section>
 </main><!-- #main -->

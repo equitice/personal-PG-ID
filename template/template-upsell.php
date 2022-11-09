@@ -21,12 +21,7 @@ get_header();
     list-style-type: revert;
 			padding-left: 0px;
 }
-		.pg-h2{
-			font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 30px;
-		}
+		
     </style>
     <?php }?>
     <?php if (get_field('banner_image_mobile')) {
@@ -124,6 +119,9 @@ get_header();
 
 							<h2 class="pg-h2"><img src="<?php echo home_url(); ?>/wp-content/uploads/2022/11/powerups-icon.png"> Fitur Ekstra</h2>
 						</div>
+					<div class="col-12 powerup-text">
+							<p class="pg-paragraph">Wawasan Pasar oleh Rumah.com</p>
+						</div>
  						
 					<div class="col-12">
 						<?php echo do_shortcode('[table id=83 /]'); ?>
@@ -188,11 +186,11 @@ get_header();
                
 
 					</div>
-				<div class="accordian-wrapper offset-md-1 col-md-7 offset-lg-2 col-lg-6">
+				<div class="accordian-wrapper offset-md-1 col-md-7 offset-lg-1 col-lg-6">
             <div class="accordion" id="homeloanaccord" style="max-width: fit-content">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button d-flex align-items-center" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             Apakah Paket Berlangganan dapat saya batalkan dan mendapatkan refund?
                         </button>
@@ -208,7 +206,7 @@ get_header();
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed d-flex align-items-center" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             Apakah Paket Berlangganan dapat dipindahkan ke orang lain?
                         </button>

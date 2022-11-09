@@ -4797,7 +4797,7 @@ main.renewal.v2 table.purple-bordered tbody {
 	border-right: 1px solid #ebebeb;
 /* 	display: flex; */
 	font-size: 14px !important;
-	padding-left: 20px !important;
+	padding-left: 30px !important;
 	/* min-width: unset; */
 	/* max-width: 300px !important; */
 	align-items: center;
@@ -4919,16 +4919,6 @@ main.renewal.v2 section.value-opportunity tbody>tr:first-of-type>td:not(:first-o
 	border: 1px solid #d9d9d9;
 	border-top: 0;
 	border-bottom: 0;
-}
-
-main.renewal.v2 section.choose-package tbody>tr:first-of-type>td,
-main.renewal.v2 section.value-opportunity tbody>tr:first-of-type>td {
-	font-size: 14px;
-	text-align: center;
-	color: #1e242e;
-	align-items: center;
-	justify-content: center;
-	padding: 10px 35px;
 }
 
 main.renewal.v2 section.value-opportunity table#tablepress-85-no-2 td,
